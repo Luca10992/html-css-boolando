@@ -5,3 +5,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    height: 3rem;
+    background-color: #FF6900;
+    border-bottom: 1px solid #B0B9BE;
+}
+
+.header.conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 7rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.gender{
+    text-decoration: none;
+    color: white;
+    margin: 0 2px;
+}
+
+.gender:hover{
+    color:#c1c1ff;
+}
+
+.botton{
+    color: white;
+    margin: 0 2px;
+}
+
+.botton:hover{
+    color:#c1c1ff;
+}
+
